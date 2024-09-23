@@ -6,7 +6,7 @@ for c in range(0,5):
     else:
         pos = 0
         while pos < len(list):
-            if n <= lista[pos]:
+            if n <= list[pos]:
                 list.insert(pos, n)
                 break
             pos += 1
